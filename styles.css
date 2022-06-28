@@ -112,8 +112,6 @@ button {
   color: var(--clr-primary);
 }
 
-/* BEGIN PART 4 */
-
 .link::before {
   content: "";
   display: inline;
@@ -129,8 +127,6 @@ button {
 .link:focus::before {
   width: 100%;
 }
-
-/* END PART 4 */
 
 .link--nav {
   color: var(--clr-fg);
@@ -211,8 +207,6 @@ button {
   layout
 ========*/
 
-/* BEGIN PART 3 */
-
 .center {
   display: flex;
   align-items: center;
@@ -226,8 +220,6 @@ button {
   margin: 0 auto;
   justify-content: space-between;
 }
-
-/* END PART 3 */
 
 main {
   max-width: 1100px;
@@ -259,8 +251,6 @@ main {
   width: 1em;
 }
 
-/* BEGIN PART 7 */
-
 .about {
   display: flex;
   flex-direction: column;
@@ -268,8 +258,6 @@ main {
   /* align-items: center; */
   /* justify-content: center; */
 }
-
-/* END PART 7 */
 
 .about__name {
   color: var(--clr-primary);
@@ -297,8 +285,6 @@ main {
   margin-right: 1em;
 }
 
-/* BEGIN PART 9 */
-
 .projects__grid {
   max-width: 1100px;
   margin: 0 auto;
@@ -306,8 +292,6 @@ main {
   /* grid-template-columns: */
   /* grid-gap: */
 }
-
-/* END PART 9 */
 
 .project {
   padding: 2em;
@@ -343,7 +327,11 @@ main {
   margin-left: 0.5em;
 }
 
-/* BEGIN PART 11 */
+.skills_classes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 
 .skills__list {
   max-width: 450px;
@@ -358,7 +346,18 @@ main {
 .skills__list-item {
 }
 
-/* END PART 11 */
+.courses__list {
+  max-width: 450px;
+  width: 95%;
+  margin: 0 auto;
+  /* text-align: center; */
+  /* display: */
+  /* flex-wrap: */
+  /* justify-content: */
+}
+
+.courses__list-item {
+}
 
 .contact {
   flex-direction: column;
