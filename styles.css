@@ -36,7 +36,8 @@ body {
 }
 
 .dark {
-  --clr-bg: #23283e;
+  --clr-bg: #23283e; 
+  /* background color: 27262b */
   --clr-bg-alt: #2a2f4c;
   --clr-fg: #bdbddd;
   --clr-fg-alt: #cdcdff;
